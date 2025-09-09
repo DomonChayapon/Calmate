@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/foodNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_8_bit"
+        android:text="Food Name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- บรรทัดสำหรับ Protein, Carbs, Fat -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/proteinText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Protein: 0g"
+            android:fontFamily="@font/font_8_bit"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/carbsText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Carbs: 0g"
+            android:fontFamily="@font/font_8_bit"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/fatText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font_8_bit"
+            android:text="Fat: 0g"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- บรรทัดสำหรับ kcal -->
+    <TextView
+        android:id="@+id/caloriesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kcal: 0"
+        android:fontFamily="@font/font_8_bit"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:fontFamily="@font/font_8_bit"
+        android:text="Delete"
+        android:textColor="#FB0202" />
+
+</LinearLayout>

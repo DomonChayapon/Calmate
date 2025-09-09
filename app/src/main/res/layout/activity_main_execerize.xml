@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22162A"
+    tools:context=".mission">
+
+    <Button
+        android:id="@+id/runButton"
+        android:layout_width="136dp"
+        android:layout_height="140dp"
+        android:layout_x="223dp"
+        android:layout_y="358dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/font_8_bit"
+        android:textColor="#241717" />
+
+    <Button
+        android:id="@+id/pushUpButton"
+        android:layout_width="136dp"
+        android:layout_height="140dp"
+        android:layout_x="45dp"
+        android:layout_y="355dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/font_8_bit"
+        android:textColor="#241717" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_x="17dp"
+        android:layout_y="782dp"
+        app:srcCompat="@drawable/yellow_small_button" />
+
+    <Button
+        android:id="@+id/backBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="786dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/font_8_bit"
+        android:text="back"
+        android:textColor="#241717" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_x="0dp"
+        android:layout_y="26dp"
+        app:srcCompat="@drawable/name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="57dp"
+        android:fontFamily="@font/font_8_bit"
+        android:text="MISSION"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        android:layout_x="224dp"
+        android:layout_y="355dp"
+        app:srcCompat="@drawable/run"
+        tools:srcCompat="@drawable/run" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        android:layout_x="46dp"
+        android:layout_y="355dp"
+        android:src="@drawable/pushup" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        android:layout_x="46dp"
+        android:layout_y="538dp"
+        app:srcCompat="@drawable/bike"
+        tools:srcCompat="@drawable/bike" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="232dp"
+        android:layout_height="169dp"
+        android:layout_x="95dp"
+        android:layout_y="127dp"
+        app:srcCompat="@drawable/circle"
+        tools:srcCompat="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/excessCaloriesText"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="190dp"
+        android:fontFamily="@font/font_8_bit"
+        android:gravity="center_horizontal"
+        android:text="150"
+        android:textColor="#FAFAFA"
+        android:textColorLink="#FFFFFF"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        android:layout_x="224dp"
+        android:layout_y="538dp"
+        android:src="@drawable/swim" />
+
+</AbsoluteLayout>

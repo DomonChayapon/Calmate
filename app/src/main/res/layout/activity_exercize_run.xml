@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22162A">
+
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_x="-1dp"
+        android:layout_y="62dp"
+        app:srcCompat="@drawable/name" />
+
+    <ImageButton
+        android:id="@+id/backRun"
+        android:layout_width="176dp"
+        android:layout_height="74dp"
+        android:layout_x="8dp"
+        android:layout_y="748dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/yellow_small_button"
+        tools:srcCompat="@drawable/yellow_small_button" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="776dp"
+        android:fontFamily="@font/font_8_bit"
+        android:text="back"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="192dp"
+        android:layout_height="76dp"
+        android:layout_x="111dp"
+        android:layout_y="386dp"
+        app:srcCompat="@drawable/yellow_small_button" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="192dp"
+        android:layout_height="76dp"
+        android:layout_x="111dp"
+        android:layout_y="617dp"
+        app:srcCompat="@drawable/yellow_small_button" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="192dp"
+        android:layout_height="76dp"
+        android:layout_x="111dp"
+        android:layout_y="540dp"
+        app:srcCompat="@drawable/yellow_small_button" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="138dp"
+        android:layout_height="132dp"
+        android:layout_x="140dp"
+        android:layout_y="215dp"
+        app:srcCompat="@drawable/run"
+        tools:srcCompat="@drawable/run" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="91dp"
+        android:fontFamily="@font/font_8_bit"
+        android:text="Run"
+        android:textColor="#101010"
+        android:textSize="34sp" />
+
+    <ImageButton
+        android:id="@+id/confirmRun"
+        android:layout_width="176dp"
+        android:layout_height="74dp"
+        android:layout_x="234dp"
+        android:layout_y="748dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/yellow_small_button"
+        tools:srcCompat="@drawable/yellow_small_button" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="297dp"
+        android:layout_y="775dp"
+        android:fontFamily="@font/font_8_bit"
+        android:text="Confirm"
+        android:textColor="#000000" />
+
+    <!-- RadioGroup -->
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="192dp"
+        android:layout_height="76dp"
+        android:layout_x="111dp"
+        android:layout_y="463dp"
+        app:srcCompat="@drawable/yellow_small_button" />
+
+    <RadioGroup
+        android:id="@+id/pushUpOptionsGroup"
+        android:layout_width="149dp"
+        android:layout_height="324dp"
+        android:layout_marginBottom="16dp"
+        android:layout_x="128dp"
+        android:layout_y="397dp"
+        android:orientation="vertical">
+
+        <!-- แถวที่ 1 -->
+
+        <!-- แถวที่ 2 -->
+
+        <RadioButton
+            android:id="@+id/radio10x2Reps"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_x="128dp"
+            android:layout_y="397dp"
+            android:checked="true"
+            android:fontFamily="@font/font_8_bit"
+            android:text="15 min" />
+
+        <RadioButton
+            android:id="@+id/radio10x3Reps"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:layout_x="128dp"
+            android:layout_y="460dp"
+            android:fontFamily="@font/font_8_bit"
+            android:text="30 min" />
+
+        <RadioButton
+            android:id="@+id/radio10x4Reps"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:layout_x="128dp"
+            android:layout_y="529dp"
+            android:fontFamily="@font/font_8_bit"
+            android:text="45 min" />
+
+        <RadioButton
+            android:id="@+id/radio10x5Reps"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:fontFamily="@font/font_8_bit"
+            android:text="60 min" />
+
+    </RadioGroup>
+
+</AbsoluteLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22162A"
+    tools:context=".fininsh_your_exercise">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_x="-1dp"
+        android:layout_y="62dp"
+        app:srcCompat="@drawable/small_button" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        android:layout_x="1dp"
+        android:layout_y="166dp"
+        app:srcCompat="@drawable/jungle"
+        tools:srcCompat="@drawable/jungle" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="67dp"
+        android:fontFamily="@font/font_8_bit"
+        android:gravity="center_horizontal"
+        android:text="Fininsh Your Exercise"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="343dp"
+        android:layout_height="68dp"
+        android:layout_x="37dp"
+        android:layout_y="454dp"
+        app:srcCompat="@drawable/small_button" />
+
+    <TextView
+        android:id="@+id/exerciseTypeText"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="465dp"
+        android:fontFamily="@font/font_8_bit"
+        android:gravity="center_horizontal"
+        android:text="Activity"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <ImageButton
+        android:id="@+id/doneButton"
+        android:layout_width="207dp"
+        android:layout_height="74dp"
+        android:layout_x="208dp"
+        android:layout_y="764dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/yellow_small_button"
+        tools:srcCompat="@drawable/yellow_small_button" />
+
+    <TextView
+        android:id="@+id/Textdone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="791dp"
+        android:fontFamily="@font/font_8_bit"
+        android:text="Done"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="192dp"
+        android:layout_height="76dp"
+        android:layout_x="114dp"
+        android:layout_y="548dp"
+        app:srcCompat="@drawable/yellow_small_button" />
+
+    <TextView
+        android:id="@+id/exerciseMinutesText"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_x="134dp"
+        android:layout_y="559dp"
+        android:fontFamily="@font/font_8_bit"
+        android:gravity="center"
+        android:text="how long"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="117dp"
+        android:layout_height="251dp"
+        android:layout_x="46dp"
+        android:layout_y="207dp"
+        app:srcCompat="@drawable/sword_man" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="218dp"
+        android:layout_height="356dp"
+        android:layout_x="184dp"
+        android:layout_y="149dp"
+        app:srcCompat="@drawable/dragon" />
+
+</AbsoluteLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22162A"
+    tools:context=".history"
+    >
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="207dp"
+        android:layout_height="74dp"
+        android:layout_x="-8dp"
+        android:layout_y="765dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/yellow_small_button"
+        tools:srcCompat="@drawable/yellow_small_button" />
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="789dp"
+        android:fontFamily="@font/font_8_bit"
+        android:text="back"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="758dp"
+        android:layout_x="-1dp"
+        android:layout_y="3dp" />
+
+</AbsoluteLayout>
